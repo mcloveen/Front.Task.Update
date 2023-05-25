@@ -1,0 +1,106 @@
+@media (max-width: 1024) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:375px) {
+
+    .nav__list {
+        display: none;
+    }
+
+    .nav__line {
+        display: none;
+    }
+
+    .nav__sign-out {
+        display: none;
+    }
+
+    .header__logo {
+        margin: 0;
+    }
+
+    .header__burger {
+        display: block;
+        padding-left: 20px;
+    }
+
+    .header__logo-container {
+        margin: 0;
+        padding-left: 30px;
+    }
+
+    .header__nav {
+        justify-content: space-between;
+    }
+
+    .nav__user-picture {
+        margin-right: 4px;
+    }
+
+    .nav__user-name {
+        margin-right: 20px;
+    }
+
+
+    .hero__container {
+        padding-top: 40px;
+        max-width: 335px;
+        flex-direction: column;
+    }
+
+    .hero__background-image {
+        max-width: 335px;
+    }
+
+    .hero__platform {
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 100%;
+        margin-bottom: 8px;
+    }
+
+    .hero__heading {
+        text-align: center;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 100%;
+        margin-bottom: 12px;
+    }
+
+    .hero__description {
+        display: none;
+    }
+
+    .hero__numbers {
+        display: none;
+    }
+
+    .hero__number-responsive {
+        display: block;
+        margin-bottom: 34px;
+    }
+
+    .hero__description-mobile {
+        display: block;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+
+    .hero__btn {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .hero__numbers {
+        margin-bottom: 0;
+        margin-bottom: 34px;
+    }
+}
